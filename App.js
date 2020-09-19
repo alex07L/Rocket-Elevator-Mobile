@@ -1,6 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { Component} from 'react';
-import ReactDOM, { render } from "react-dom";
 import { StyleSheet, Text, View, TextInput, Button, Alert, FlatList, Picker, ActivityIndicator, Image } from 'react-native';
 import { ListItem, Avatar } from 'react-native-elements'
 import { ApolloClient, InMemoryCache } from '@apollo/client';
@@ -239,12 +237,7 @@ const styles = StyleSheet.create({
     height: 110,
     marginBottom: 20,
   },
-  instructions: {
-    color: '#888',
-    fontSize: 18,
-    marginHorizontal: 15,
-    marginBottom: 10,
-  },
+  
 });
 
 
